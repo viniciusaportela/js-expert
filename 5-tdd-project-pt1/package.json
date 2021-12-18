@@ -1,0 +1,24 @@
+{
+  "name": "js-expert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node ./seed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viniciusaportela/js-expert.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viniciusaportela/js-expert/issues"
+  },
+  "homepage": "https://github.com/viniciusaportela/js-expert#readme",
+  "devDependencies": {
+    "faker": "^5.5.3"
+  }
+}
