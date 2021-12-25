@@ -1,0 +1,31 @@
+{
+  "name": "js-expert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "seed": "node ./seed",
+    "test": "npx mocha -w --parallel **/**/*.test.js",
+    "test:cov": "npx nyc npx mocha --parallel **/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viniciusaportela/js-expert.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viniciusaportela/js-expert/issues"
+  },
+  "homepage": "https://github.com/viniciusaportela/js-expert#readme",
+  "devDependencies": {
+    "chai": "4",
+    "faker": "^5.5.3"
+  },
+  "dependencies": {
+    "mocha": "8",
+    "nyc": "15",
+    "sinon": "9"
+  }
+}

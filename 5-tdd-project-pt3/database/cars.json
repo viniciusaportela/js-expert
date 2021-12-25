@@ -1,0 +1,23 @@
+[
+  {
+    "id": "233ba20d-f122-4ef6-aa89-eb8d4f63571d",
+    "name": "Model 3",
+    "releaseYear": 2021,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "7288d924-eb6d-44f8-af50-4f99b253e32d",
+    "name": "Explorer",
+    "releaseYear": 2021,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "0de6448a-4fef-4fdd-82a3-63980fd497d1",
+    "name": "Land Cruiser",
+    "releaseYear": 2020,
+    "available": true,
+    "gasAvailable": true
+  }
+]
