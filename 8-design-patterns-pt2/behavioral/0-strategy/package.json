@@ -1,0 +1,19 @@
+{
+  "name": "0-strategy",
+  "type": "module",
+  "scripts": {
+    "dev": "npx nodemon index.js"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  },
+  "dependencies": {
+    "i": "^0.3.7",
+    "knex": "^2.1.0",
+    "mongodb": "^4.7.0",
+    "pg": "^8.7.3"
+  }
+}
