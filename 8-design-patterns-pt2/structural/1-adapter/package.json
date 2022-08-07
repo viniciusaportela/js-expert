@@ -1,0 +1,19 @@
+{
+  "name": "1-adapter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "jest": "26"
+  },
+  "scripts": {
+    "start": "node example/http-server.js",
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest --runInBand --watch --config ./jest.config.js",
+    "test:cov": "NODE_OPTIONS=--experimental-vm-modules npx jest --config ./jest.config.js --coverage"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "xml2js": "^0.4.23"
+  }
+}
