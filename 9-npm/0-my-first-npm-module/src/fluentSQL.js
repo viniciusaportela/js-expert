@@ -86,7 +86,6 @@ export default class FluentSQLBuilder {
     if (!this.#count) return results;
 
     const accumulator = {};
-
     for (const result of results) {
       const targetField = result[this.#count];
 
